@@ -14,7 +14,7 @@ fn print_hello(name: String) -> String {
 
 #[test]
 fn test_build_message(){
-    let name = String::from("Jack");
-
-    assert_eq!(print_hello(name), "Hello Jack")
+    panic!();
+    //let name = String::from("Jack");
+    //assert_eq!(print_hello(name), "Hello")
 }
