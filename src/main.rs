@@ -11,7 +11,6 @@ fn print_hello(name: String) -> String {
     return message;
 }
 
-
 #[test]
 fn test_build_message(){
     panic!();
